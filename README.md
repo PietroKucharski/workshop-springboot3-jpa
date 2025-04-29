@@ -13,7 +13,6 @@ boas práticas de arquitetura em camadas.
 - ✅ Implementação de operações **CRUD** (Create, Read, Update, Delete)
 - ✅ Tratamento de exceções personalizado
 - ✅ Utilização do **Apache Tomcat** como servidor embarcado
-- ✅ Deploy da aplicação no **Heroku**
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -23,7 +22,6 @@ boas práticas de arquitetura em camadas.
 - H2 Database
 - Maven
 - Apache Tomcat
-- Heroku
 
 ## ✍️ Autor
 
