@@ -2,6 +2,7 @@ package com.pietrokucharski.spring_project.services;
 
 import com.pietrokucharski.spring_project.entities.User;
 import com.pietrokucharski.spring_project.repositories.UserRepository;
+import com.pietrokucharski.spring_project.services.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,7 +25,7 @@ public class UserService {
 
     public User findById(Long id) {
         Optional<User> user = repository.findById(id);
-        return user.get();
+        return user.orElseThrow(() -> new ResourceNotFoundException(id));
     }
 
     public void delete(Long id) {
