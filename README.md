@@ -10,7 +10,7 @@ boas práticas de arquitetura em camadas.
 - ✅ Estruturação em camadas: Resource, Service, Repository
 - ✅ Banco de dados em memória (**H2 Database**) configurado
 - ✅ População automática do banco de dados
-- ✅ Implementação de operações **CRUD** (Create, Retrieve, Update, Delete)
+- ✅ Implementação de operações **CRUD** (Create, Read, Update, Delete)
 - ✅ Tratamento de exceções personalizado
 - ✅ Utilização do **Apache Tomcat** como servidor embarcado
 - ✅ Deploy da aplicação no **Heroku**
