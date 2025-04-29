@@ -1,7 +1,7 @@
-
 # 📚 Projeto Spring Boot - API CRUD
 
-Este repositório contém um projeto desenvolvido com **Spring Boot** e **Java**, focado na criação de uma API RESTful com boas práticas de arquitetura em camadas.
+Este repositório contém um projeto desenvolvido com **Spring Boot** e **Java**, focado na criação de uma API RESTful com
+boas práticas de arquitetura em camadas.
 
 ## 🚀 Funcionalidades
 
@@ -15,11 +15,9 @@ Este repositório contém um projeto desenvolvido com **Spring Boot** e **Java**
 - ✅ Utilização do **Apache Tomcat** como servidor embarcado
 - ✅ Deploy da aplicação no **Heroku**
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
-- Java 21 
+- Java 21
 - Spring Boot
 - Spring Data JPA
 - H2 Database
@@ -27,12 +25,8 @@ Este repositório contém um projeto desenvolvido com **Spring Boot** e **Java**
 - Apache Tomcat
 - Heroku
 
----
-
 ## ✍️ Autor
 
 - [Pietro Kucharski](https://github.com/PietroKucharski)
-
----
 
 > Projeto desenvolvido para fins de estudo e como base para futuros projetos com Spring Boot.
